@@ -1,0 +1,2 @@
+/* init namespace */
+var Amp = {};
