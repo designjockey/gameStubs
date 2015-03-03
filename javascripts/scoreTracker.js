@@ -16,7 +16,7 @@
          */
 
         function setScore(int) {
-            if (!this.utils.isInteger(int)) {
+            if (!utils.isInteger(int)) {
                 return;
             }
 
@@ -25,8 +25,8 @@
         }
 
 
-        function deductPoint(int) {
-            if (!this.utils.isInteger(int)) {
+        function deductPoints(int) {
+            if (!utils.isInteger(int)) {
                 return;
             }
 
@@ -40,7 +40,7 @@
 
         return {
             setScore: setScore,
-            deductPoint: deductPoint,
+            deductPoints: deductPoints,
             getTotalScore: getTotalScore,
             init: init
         }
