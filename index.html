@@ -5,8 +5,17 @@
     <script src="https://code.createjs.com/tweenjs-0.6.0.min.js"></script>
     <script src="https://code.createjs.com/soundjs-0.6.0.min.js"></script>
     <script src="https://code.createjs.com/preloadjs-0.6.0.min.js"></script>
+    <script src= "public/javascripts/scoreboard.js"></script>
+
+    <script>
+      
+      var scoreBoard = new ScoreBoard(0);
+      var addFunction = scoreBoard.addPoint;
+      var subtractFunction = scoreBoard.deductPoint;
+      var outputFunction = scoreBoard.Getoutput;
+    </script>
 </head>
 <body>
-
+   <div id="score"></div>
 </body>
 </html>
